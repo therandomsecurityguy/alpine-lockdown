@@ -19,6 +19,7 @@ RUN \
   chown -R ${SERVICE_USER}:${SERVICE_USER} ${SERVICE_HOME} && \
   apk add --no-cache \
     dumb-init && \
+  chmod +x /root/lockdown.sh \
   /root/lockdown.sh
 
 USER ${SERVICE_USER}
