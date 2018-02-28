@@ -1,7 +1,7 @@
 FROM alpine:3.7
 
-LABEL maintainer="dchamorro" \
-      version="0.1"
+LABEL maintainer="therandomsecurityguy" \
+      version="0.2"
 
 # Optional Configuration Parameter
 ARG SERVICE_USER
