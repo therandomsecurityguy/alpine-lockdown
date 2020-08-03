@@ -1,7 +1,7 @@
-FROM alpine:3.7
+FROM alpine:3.12
 
 LABEL maintainer="therandomsecurityguy" \
-      version="0.2"
+      version="0.3"
 
 # Optional Configuration Parameter
 ARG SERVICE_USER
